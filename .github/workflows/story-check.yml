@@ -1,0 +1,35 @@
+name: Story and project checks
+
+on:
+  push:
+    branches:
+      - feature/abo-chapter-01
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Validate story script
+        run: npm run story:validate
+      - name: Test story paths
+        run: npm run story:test
+      - name: Run unit tests
+        run: npm test
+      - name: Build production preview
+        run: npm run build
