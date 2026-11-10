@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -2529,8 +2529,8 @@
       "conditions": [
         {
           "key": "interactions_shotaro",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_shotaro",
@@ -2557,8 +2557,8 @@
       "conditions": [
         {
           "key": "interactions_shotaro",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_shotaro",
@@ -2610,8 +2610,8 @@
       "conditions": [
         {
           "key": "interactions_eunseok",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_eunseok",
@@ -2638,8 +2638,8 @@
       "conditions": [
         {
           "key": "interactions_eunseok",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_eunseok",
@@ -2691,8 +2691,8 @@
       "conditions": [
         {
           "key": "interactions_sungchan",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_sungchan",
@@ -2719,8 +2719,8 @@
       "conditions": [
         {
           "key": "interactions_sungchan",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_sungchan",
@@ -2772,8 +2772,8 @@
       "conditions": [
         {
           "key": "interactions_wonbin",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_wonbin",
@@ -2800,8 +2800,8 @@
       "conditions": [
         {
           "key": "interactions_wonbin",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_wonbin",
@@ -2853,8 +2853,8 @@
       "conditions": [
         {
           "key": "interactions_sohee",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_sohee",
@@ -2881,8 +2881,8 @@
       "conditions": [
         {
           "key": "interactions_sohee",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_sohee",
@@ -2934,8 +2934,8 @@
       "conditions": [
         {
           "key": "interactions_anton",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_anton",
@@ -2962,8 +2962,8 @@
       "conditions": [
         {
           "key": "interactions_anton",
-          "op": "eq",
-          "value": 1
+          "op": "gt",
+          "value": 0
         },
         {
           "key": "rel_anton",
@@ -3413,6 +3413,68 @@
       "ending": "chapter-01-wonbin",
       "expectUnlocked": [
         "health-fluctuation-record",
+        "chapter2-exchange-partner-note",
+        "msg-wonbin-exchange",
+        "chapter2-wrap-note",
+        "health-archived-fragment",
+        "health-exchange-result"
+      ]
+    },
+    {
+      "name": "第二章｜二次互动对象仍可选择信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "msg-wonbin-last",
         "chapter2-exchange-partner-note",
         "msg-wonbin-exchange",
         "chapter2-wrap-note",
