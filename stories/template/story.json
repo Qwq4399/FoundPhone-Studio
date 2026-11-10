@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 12,
+  "revision": 13,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -706,7 +706,7 @@
       {
         "id": "chapter2-exchange-partner-note",
         "title": "想找谁帮忙？",
-        "body": "你打开联系人列表，想了想，还是决定只联系一个真正让自己安心的人。\n\n交换信息素需要双方明确同意。你可以选择一位已经建立起一定熟悉感的人；对方也会先确认你的意愿。任何时候都可以停下。",
+        "body": "你打开联系人列表，想了想，还是决定联系一位真正让自己安心的人。\n\n选择对象后，你们会先在聊天中确认彼此的意愿与边界；只有双方都明确同意，才会开始短时信息素安抚。任何一方感到不适，都可以随时停止。即使已经联系，也可以改变主意。",
         "time": "2026-11-10 08:20",
         "sender": "OO",
         "kind": "note",
@@ -2569,32 +2569,12 @@
       "actions": [
         {
           "type": "variable",
-          "key": "heat_progress",
-          "value": 6
-        },
-        {
-          "type": "variable",
           "key": "exchange_partner",
           "value": "shotaro"
         },
         {
-          "type": "variable",
-          "key": "chapter2_completed",
-          "value": true
-        },
-        {
           "type": "unlock",
           "key": "msg-shotaro-exchange",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "chapter2-wrap-note",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "health-exchange-result",
           "value": true
         }
       ],
@@ -2650,32 +2630,12 @@
       "actions": [
         {
           "type": "variable",
-          "key": "heat_progress",
-          "value": 6
-        },
-        {
-          "type": "variable",
           "key": "exchange_partner",
           "value": "eunseok"
         },
         {
-          "type": "variable",
-          "key": "chapter2_completed",
-          "value": true
-        },
-        {
           "type": "unlock",
           "key": "msg-eunseok-exchange",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "chapter2-wrap-note",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "health-exchange-result",
           "value": true
         }
       ],
@@ -2731,32 +2691,12 @@
       "actions": [
         {
           "type": "variable",
-          "key": "heat_progress",
-          "value": 6
-        },
-        {
-          "type": "variable",
           "key": "exchange_partner",
           "value": "sungchan"
         },
         {
-          "type": "variable",
-          "key": "chapter2_completed",
-          "value": true
-        },
-        {
           "type": "unlock",
           "key": "msg-sungchan-exchange",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "chapter2-wrap-note",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "health-exchange-result",
           "value": true
         }
       ],
@@ -2812,32 +2752,12 @@
       "actions": [
         {
           "type": "variable",
-          "key": "heat_progress",
-          "value": 6
-        },
-        {
-          "type": "variable",
           "key": "exchange_partner",
           "value": "wonbin"
         },
         {
-          "type": "variable",
-          "key": "chapter2_completed",
-          "value": true
-        },
-        {
           "type": "unlock",
           "key": "msg-wonbin-exchange",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "chapter2-wrap-note",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "health-exchange-result",
           "value": true
         }
       ],
@@ -2893,32 +2813,12 @@
       "actions": [
         {
           "type": "variable",
-          "key": "heat_progress",
-          "value": 6
-        },
-        {
-          "type": "variable",
           "key": "exchange_partner",
           "value": "sohee"
         },
         {
-          "type": "variable",
-          "key": "chapter2_completed",
-          "value": true
-        },
-        {
           "type": "unlock",
           "key": "msg-sohee-exchange",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "chapter2-wrap-note",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "health-exchange-result",
           "value": true
         }
       ],
@@ -2974,22 +2874,73 @@
       "actions": [
         {
           "type": "variable",
+          "key": "exchange_partner",
+          "value": "anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-exchange",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-shotaro",
+      "label": "阅读 Shotaro 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-shotaro-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "shotaro"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-shotaro",
+          "value": "确认与 Shotaro 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-shotaro",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-shotaro",
+      "label": "确认与 Shotaro 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-shotaro",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "shotaro"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
           "key": "heat_progress",
           "value": 6
         },
         {
           "type": "variable",
-          "key": "exchange_partner",
-          "value": "anton"
-        },
-        {
-          "type": "variable",
           "key": "chapter2_completed",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "msg-anton-exchange",
           "value": true
         },
         {
@@ -3000,6 +2951,649 @@
         {
           "type": "unlock",
           "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-shotaro",
+      "label": "暂缓与 Shotaro 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-shotaro",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "shotaro"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-eunseok",
+      "label": "阅读 Eunseok 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-eunseok-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "eunseok"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-eunseok",
+          "value": "确认与 Eunseok 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-eunseok",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-eunseok",
+      "label": "确认与 Eunseok 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-eunseok",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "eunseok"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-eunseok",
+      "label": "暂缓与 Eunseok 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-eunseok",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "eunseok"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-sungchan",
+      "label": "阅读 Sungchan 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sungchan-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sungchan"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-sungchan",
+          "value": "确认与 Sungchan 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-sungchan",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-sungchan",
+      "label": "确认与 Sungchan 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-sungchan",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sungchan"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-sungchan",
+      "label": "暂缓与 Sungchan 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-sungchan",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sungchan"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-wonbin",
+      "label": "阅读 Wonbin 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-wonbin-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "wonbin"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-wonbin",
+          "value": "确认与 Wonbin 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-wonbin",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-wonbin",
+      "label": "确认与 Wonbin 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-wonbin",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "wonbin"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-wonbin",
+      "label": "暂缓与 Wonbin 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-wonbin",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "wonbin"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-sohee",
+      "label": "阅读 Sohee 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sohee-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sohee"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-sohee",
+          "value": "确认与 Sohee 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-sohee",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-sohee",
+      "label": "确认与 Sohee 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-sohee",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sohee"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-sohee",
+      "label": "暂缓与 Sohee 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-sohee",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "sohee"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-exchange-invite-anton",
+      "label": "阅读 Anton 的安抚邀请",
+      "type": "event",
+      "event": "read",
+      "target": "msg-anton-exchange",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "anton"
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "confirm-exchange-anton",
+          "value": "确认与 Anton 进行短时信息素安抚"
+        },
+        {
+          "type": "choice",
+          "key": "decline-exchange-anton",
+          "value": "先不急，改为休息观察"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "confirm-exchange-anton",
+      "label": "确认与 Anton 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "confirm-exchange-anton",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "anton"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-exchange-result",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "decline-exchange-anton",
+      "label": "暂缓与 Anton 进行信息素安抚",
+      "type": "choice",
+      "event": "choose",
+      "target": "decline-exchange-anton",
+      "conditions": [
+        {
+          "key": "exchange_partner",
+          "op": "eq",
+          "value": "anton"
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "rest"
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "none"
+        },
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-rest-result",
           "value": true
         }
       ],
@@ -3399,6 +3993,14 @@
         },
         {
           "event": "read",
+          "target": "msg-wonbin-exchange"
+        },
+        {
+          "choose": "confirm-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
           "target": "health-exchange-result"
         },
         {
@@ -3461,6 +4063,14 @@
         },
         {
           "event": "read",
+          "target": "msg-wonbin-exchange"
+        },
+        {
+          "choose": "confirm-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
           "target": "health-exchange-result"
         },
         {
@@ -3511,6 +4121,14 @@
         },
         {
           "choose": "choose-exchange-shotaro",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-shotaro-exchange"
+        },
+        {
+          "choose": "confirm-exchange-shotaro",
           "target": ""
         },
         {
@@ -3568,6 +4186,14 @@
         },
         {
           "event": "read",
+          "target": "msg-eunseok-exchange"
+        },
+        {
+          "choose": "confirm-exchange-eunseok",
+          "target": ""
+        },
+        {
+          "event": "read",
           "target": "health-exchange-result"
         },
         {
@@ -3617,6 +4243,14 @@
         },
         {
           "choose": "choose-exchange-sungchan",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-sungchan-exchange"
+        },
+        {
+          "choose": "confirm-exchange-sungchan",
           "target": ""
         },
         {
@@ -3674,6 +4308,14 @@
         },
         {
           "event": "read",
+          "target": "msg-wonbin-exchange"
+        },
+        {
+          "choose": "confirm-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
           "target": "health-exchange-result"
         },
         {
@@ -3727,6 +4369,14 @@
         },
         {
           "event": "read",
+          "target": "msg-sohee-exchange"
+        },
+        {
+          "choose": "confirm-exchange-sohee",
+          "target": ""
+        },
+        {
+          "event": "read",
           "target": "health-exchange-result"
         },
         {
@@ -3776,6 +4426,14 @@
         },
         {
           "choose": "choose-exchange-anton",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-anton-exchange"
+        },
+        {
+          "choose": "confirm-exchange-anton",
           "target": ""
         },
         {
@@ -3846,6 +4504,66 @@
       ],
       "ending": "chapter-01-wonbin",
       "expectUnlocked": [
+        "chapter2-wrap-note",
+        "health-rest-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜收到邀请后改变主意，暂缓信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-wonbin-exchange"
+        },
+        {
+          "choose": "decline-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-rest-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "msg-wonbin-exchange",
         "chapter2-wrap-note",
         "health-rest-result",
         "health-archived-fragment"
