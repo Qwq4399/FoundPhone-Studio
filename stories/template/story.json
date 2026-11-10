@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 5,
+  "revision": 6,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -131,6 +131,13 @@
       "phone": "",
       "avatar": "",
       "bio": "大提琴家、慈善活动参与者。因常去的咖啡店而认识"
+    },
+    {
+      "id": "clinic",
+      "name": "市立综合医院",
+      "phone": "",
+      "avatar": "",
+      "bio": "门诊服务通知"
     }
   ],
   "chats": [
@@ -625,6 +632,33 @@
           "hidden": true
         }
       ]
+    },
+    {
+      "id": "chat-clinic",
+      "app": "messages",
+      "title": "市立综合医院",
+      "participants": [
+        "owner",
+        "clinic"
+      ],
+      "messages": [
+        {
+          "id": "msg-clinic-result",
+          "title": "检查结果通知",
+          "body": "您好，您的分化评估报告已生成。请登录健康档案查看结果。如需咨询，请在门诊服务时间内联系接诊医生。",
+          "time": "2026-11-05 10:12",
+          "senderId": "clinic",
+          "kind": "text"
+        },
+        {
+          "id": "msg-clinic-followup",
+          "title": "复诊提醒",
+          "body": "医生建议您于两周后复诊，复查信息素水平及周期稳定情况。如出现持续性发热、明显不适或异常信息素波动，请及时就诊。",
+          "time": "2026-11-05 10:16",
+          "senderId": "clinic",
+          "kind": "text"
+        }
+      ]
     }
   ],
   "content": {
@@ -678,6 +712,14 @@
         "sender": "OO",
         "kind": "note",
         "hidden": true
+      },
+      {
+        "id": "note-post-clinic",
+        "title": "看完医生后记得",
+        "body": "1. 这次确认是迟发性 Omega 分化。\n2. 目前属于分化后适应期，先观察，不用自己吓自己。\n3. 记录身体不舒服的时间、持续多久、当时在做什么。\n4. 抑制剂按处方使用，不要因为担心就擅自加量。\n5. 两周后复查。\n\n医生说先照常生活，但最近尽量别熬夜。",
+        "time": "2026-11-05 11:02",
+        "sender": "OO",
+        "kind": "note"
       }
     ],
     "calendar": [
@@ -761,6 +803,14 @@
         "sender": "健康记录",
         "kind": "note",
         "hidden": true
+      },
+      {
+        "id": "health-differentiation-report",
+        "title": "分化评估｜Omega",
+        "body": "检查日期：2026-11-05\n接诊科室：内分泌与信息素门诊\n\n评估结果：迟发性分化，分化类型为 Omega。\n信息素腺体：已出现稳定表达。\n当前阶段：分化后适应期。\n信息素指标：基础水平已建立，存在轻度短时波动。\n\n医生意见：目前生命体征及常规指标无明显危险信号。建议规律作息、记录身体反应，并按预约时间复查。若出现持续不适或异常波动加重，应及时就诊。\n\n备注：本次评估确认分化类型，不代表身体已完全适应新的周期。",
+        "time": "2026-11-05 10:08",
+        "sender": "市立综合医院",
+        "kind": "note"
       }
     ],
     "instagram": [
@@ -797,6 +847,32 @@
         "time": "2026-11-09 18:16",
         "sender": "Sohee",
         "kind": "text"
+      }
+    ],
+    "files": [
+      {
+        "id": "file-differentiation-report",
+        "title": "分化评估报告.pdf",
+        "body": "市立综合医院｜分化评估报告\n检查日期：2026-11-05\n评估结果：迟发性分化，Omega。\n当前阶段：分化后适应期。\n建议：记录周期与身体反应，两周后复查。",
+        "time": "2026-11-05 10:08",
+        "sender": "市立综合医院",
+        "kind": "file",
+        "meta": {
+          "fileName": "分化评估报告.pdf",
+          "category": "medical"
+        }
+      },
+      {
+        "id": "file-suppressant-prescription",
+        "title": "处方记录.pdf",
+        "body": "处方类型：Omega 分化适应期备用抑制剂\n用法：遵医嘱按需使用，不自行增加剂量。\n复诊：两周后复查信息素水平及周期稳定情况。",
+        "time": "2026-11-05 10:10",
+        "sender": "市立综合医院",
+        "kind": "file",
+        "meta": {
+          "fileName": "处方记录.pdf",
+          "category": "prescription"
+        }
       }
     ]
   },
