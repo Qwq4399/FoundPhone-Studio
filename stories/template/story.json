@@ -201,7 +201,7 @@
         {
           "id": "msg-shotaro-last",
           "title": "Shotaro",
-          "body": "",
+          "body": "这么晚了，还没睡吗？今天能和你重新聊上，感觉还不错。晚安。",
           "time": "2026-11-09 23:48",
           "senderId": "shotaro",
           "hidden": true
@@ -275,7 +275,7 @@
         {
           "id": "msg-eunseok-last",
           "title": "Eunseok",
-          "body": "",
+          "body": "还在线？算了，今天先放过你。明天再开一局。……晚安。",
           "time": "2026-11-09 23:48",
           "senderId": "eunseok",
           "hidden": true
@@ -349,7 +349,7 @@
         {
           "id": "msg-sungchan-last",
           "title": "Sungchan",
-          "body": "",
+          "body": "今天晚上原本没什么安排。不过现在，好像有点期待明天了。早点休息。",
           "time": "2026-11-09 23:48",
           "senderId": "sungchan",
           "hidden": true
@@ -358,7 +358,7 @@
     },
     {
       "id": "chat-wonbin",
-      "app": "instagram",
+      "app": "kakao",
       "title": "Wonbin",
       "participants": [
         "owner",
@@ -423,7 +423,7 @@
         {
           "id": "msg-wonbin-last",
           "title": "Wonbin",
-          "body": "",
+          "body": "刚刚又看了一遍你之前说的话。有时候觉得，你还挺有意思的。晚安。",
           "time": "2026-11-09 23:48",
           "senderId": "wonbin",
           "hidden": true
@@ -497,7 +497,7 @@
         {
           "id": "msg-sohee-last",
           "title": "Sohee",
-          "body": "",
+          "body": "今天最后一条消息！明天也要记得找我聊天。晚安！！",
           "time": "2026-11-09 23:48",
           "senderId": "sohee",
           "hidden": true
@@ -571,7 +571,7 @@
         {
           "id": "msg-anton-last",
           "title": "Anton",
-          "body": "",
+          "body": "今天辛苦了。希望你今晚能好好休息。晚安。",
           "time": "2026-11-09 23:48",
           "senderId": "anton",
           "hidden": true
