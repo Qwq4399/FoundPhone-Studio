@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -3480,6 +3480,375 @@
         "chapter2-wrap-note",
         "health-archived-fragment",
         "health-exchange-result"
+      ]
+    },
+    {
+      "name": "第二章｜Shotaro 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-shotaro-opening"
+        },
+        {
+          "choose": "choose-shotaro-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-shotaro",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-shotaro",
+      "expectUnlocked": [
+        "msg-shotaro-last",
+        "msg-shotaro-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜Eunseok 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-eunseok-opening"
+        },
+        {
+          "choose": "choose-eunseok-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-eunseok",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-eunseok",
+      "expectUnlocked": [
+        "msg-eunseok-last",
+        "msg-eunseok-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜Sungchan 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-sungchan-opening"
+        },
+        {
+          "choose": "choose-sungchan-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-sungchan",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-sungchan",
+      "expectUnlocked": [
+        "msg-sungchan-last",
+        "msg-sungchan-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜Wonbin 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "msg-wonbin-last",
+        "msg-wonbin-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜Sohee 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-sohee-opening"
+        },
+        {
+          "choose": "choose-sohee-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-sohee",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-sohee",
+      "expectUnlocked": [
+        "msg-sohee-last",
+        "msg-sohee-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜Anton 路线完成自愿信息素安抚",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-anton-opening"
+        },
+        {
+          "choose": "choose-anton-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-anton",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-exchange-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-anton",
+      "expectUnlocked": [
+        "msg-anton-last",
+        "msg-anton-exchange",
+        "chapter2-wrap-note",
+        "health-exchange-result",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜熟悉度不足时可以暂缓交换",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-1",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-rest",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "health-rest-result"
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "chapter2-wrap-note",
+        "health-rest-result",
+        "health-archived-fragment"
       ]
     }
   ]
