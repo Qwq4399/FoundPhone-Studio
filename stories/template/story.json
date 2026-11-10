@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -643,6 +643,14 @@
       ],
       "messages": [
         {
+          "id": "msg-clinic-appointment",
+          "title": "预约成功",
+          "body": "您已预约 11 月 5 日 10:00 内分泌与信息素门诊。请按时到院，并携带近期周期记录。",
+          "time": "2026-11-03 18:32",
+          "senderId": "clinic",
+          "kind": "text"
+        },
+        {
           "id": "msg-clinic-result",
           "title": "检查结果通知",
           "body": "您好，您的分化评估报告已生成。请登录健康档案查看结果。如需咨询，请在门诊服务时间内联系接诊医生。",
@@ -720,6 +728,14 @@
         "time": "2026-11-05 11:02",
         "sender": "OO",
         "kind": "note"
+      },
+      {
+        "id": "note-first-symptoms",
+        "title": "最近身体有点奇怪",
+        "body": "10 月 29 日\n\n这几天总觉得体温不太稳定，偶尔会突然觉得很热，嗅觉也比以前敏感。今天在人多的地方待了一会儿，头有点晕，后颈附近还有很轻微的刺痒感。\n\n本来以为是最近睡太少，但周期记录也有点对不上。还是预约检查比较放心。",
+        "time": "2026-10-29 22:14",
+        "sender": "OO",
+        "kind": "note"
       }
     ],
     "calendar": [
@@ -736,6 +752,14 @@
         "title": "合作企划沟通",
         "body": "14:00｜确认拍摄需求、交付时间与合作方名单",
         "time": "2026-11-09 08:12",
+        "sender": "日历",
+        "kind": "event"
+      },
+      {
+        "id": "calendar-differentiation-clinic",
+        "title": "市立综合医院｜分化评估门诊",
+        "body": "10:00｜内分泌与信息素门诊\n携带近期周期记录，完成分化评估。",
+        "time": "2026-11-05 09:30",
         "sender": "日历",
         "kind": "event"
       }
