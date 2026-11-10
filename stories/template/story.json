@@ -2172,6 +2172,87 @@
       ],
       "ending": "chapter-01-quiet",
       "expectUnlocked": []
+    },
+    {
+      "name": "第一章｜六人均有互动后由二次互动者发送最后消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-shotaro-opening"
+        },
+        {
+          "choose": "choose-shotaro-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-eunseok-opening"
+        },
+        {
+          "choose": "choose-eunseok-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-sungchan-opening"
+        },
+        {
+          "choose": "choose-sungchan-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-sohee-opening"
+        },
+        {
+          "choose": "choose-sohee-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "msg-anton-opening"
+        },
+        {
+          "choose": "choose-anton-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "msg-shotaro-reply-2",
+        "msg-shotaro-response-2",
+        "msg-eunseok-reply-2",
+        "msg-eunseok-response-2",
+        "msg-sungchan-reply-2",
+        "msg-sungchan-response-2",
+        "msg-wonbin-reply-2",
+        "msg-wonbin-response-2",
+        "msg-sohee-reply-2",
+        "msg-sohee-response-2",
+        "msg-anton-reply-2",
+        "msg-anton-response-2",
+        "msg-wonbin-last"
+      ]
     }
   ]
 }
