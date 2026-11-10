@@ -1,16 +1,18 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "abo-city-phone",
+  "title": "After Scent｜新消息",
+  "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
+    "owner": "OO",
+    "date": "2026-11-09",
     "time": "09:41",
-    "battery": 94,
+    "battery": 87,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light",
+    "notifications": true
   },
   "installedApps": [
     "appstore",
@@ -89,611 +91,2075 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "shotaro",
+      "name": "Shotaro",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "现役爱豆、舞者。曾在舞蹈课程上认识，因一场品牌企划重新联系"
+    },
+    {
+      "id": "eunseok",
+      "name": "Eunseok",
+      "phone": "",
+      "avatar": "",
+      "bio": "网络游戏好友。宅男、游戏高手，恋爱经验为零"
+    },
+    {
+      "id": "sungchan",
+      "name": "Sungchan",
+      "phone": "",
+      "avatar": "",
+      "bio": "家族企业继承人。朋友的朋友，偶有工作交集"
+    },
+    {
+      "id": "wonbin",
+      "name": "Wonbin",
+      "phone": "",
+      "avatar": "",
+      "bio": "模特与匿名视觉创作者。你关注他的作品，却不知道两个账号背后是同一个人"
+    },
+    {
+      "id": "sohee",
+      "name": "Sohee",
+      "phone": "",
+      "avatar": "",
+      "bio": "歌手兼电台 DJ。日常聊天搭子，常分享音乐和生活琐事"
+    },
+    {
+      "id": "anton",
+      "name": "Anton",
+      "phone": "",
+      "avatar": "",
+      "bio": "大提琴家、慈善活动参与者。因常去的咖啡店而认识"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "chat-shotaro",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "Shotaro",
       "participants": [
         "owner",
-        "test-contact"
+        "shotaro"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "msg-shotaro-opening",
+          "title": "Shotaro",
+          "body": "听说这次品牌企划是你负责？好久不见。没想到会在这种场合重新联系上。",
+          "time": "2026-11-09 08:36",
+          "senderId": "shotaro"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "msg-shotaro-reply-1",
+          "title": "Shotaro",
+          "body": "是我负责。之后工作上还请多多关照。",
+          "time": "2026-11-09 08:36",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-response-1",
+          "title": "Shotaro",
+          "body": "那我就放心了。合作顺利的话，结束后请你喝咖啡。",
+          "time": "2026-11-09 08:36",
+          "senderId": "shotaro",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-reply-2",
+          "title": "Shotaro",
+          "body": "真的好久不见！你最近还好吗？",
+          "time": "2026-11-09 08:36",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-response-2",
+          "title": "Shotaro",
+          "body": "还不错，就是行程有点满。看到你名字的时候，我还确认了两遍。",
+          "time": "2026-11-09 08:36",
+          "senderId": "shotaro",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-reply-3",
+          "title": "Shotaro",
+          "body": "你居然还记得我？我以为你早就忘了。",
+          "time": "2026-11-09 08:36",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-response-3",
+          "title": "Shotaro",
+          "body": "怎么会。以前一起上课的事，我还记得不少。",
+          "time": "2026-11-09 08:36",
+          "senderId": "shotaro",
+          "hidden": true
+        },
+        {
+          "id": "msg-shotaro-last",
+          "title": "Shotaro",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "shotaro",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-eunseok",
+      "app": "discord",
+      "title": "Eunseok",
+      "participants": [
+        "owner",
+        "eunseok"
+      ],
+      "messages": [
+        {
+          "id": "msg-eunseok-opening",
+          "title": "Eunseok",
+          "body": "昨天打到一半你怎么突然下线了？我差一点就带飞了。今晚补一局？",
+          "time": "2026-11-09 11:20",
+          "senderId": "eunseok"
+        },
+        {
+          "id": "msg-eunseok-reply-1",
+          "title": "Eunseok",
+          "body": "你先解释一下最后那波为什么冲进人堆。",
+          "time": "2026-11-09 11:20",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-response-1",
+          "title": "Eunseok",
+          "body": "那叫战术性试探。今晚我会证明给你看。",
+          "time": "2026-11-09 11:20",
+          "senderId": "eunseok",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-reply-2",
+          "title": "Eunseok",
+          "body": "行啊，几点？这次不许临时改阵容。",
+          "time": "2026-11-09 11:20",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-response-2",
+          "title": "Eunseok",
+          "body": "九点。阵容我研究过了，胜率至少提高百分之十。",
+          "time": "2026-11-09 11:20",
+          "senderId": "eunseok",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-reply-3",
+          "title": "Eunseok",
+          "body": "这么想和我玩吗？还特地来催。",
+          "time": "2026-11-09 11:20",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-response-3",
+          "title": "Eunseok",
+          "body": "……我只是缺一个稳定队友。你别想太多。",
+          "time": "2026-11-09 11:20",
+          "senderId": "eunseok",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-last",
+          "title": "Eunseok",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "eunseok",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-sungchan",
+      "app": "kakao",
+      "title": "Sungchan",
+      "participants": [
+        "owner",
+        "sungchan"
+      ],
+      "messages": [
+        {
+          "id": "msg-sungchan-opening",
+          "title": "Sungchan",
+          "body": "午饭吃了吗？我刚好在你公司附近。晚上有安排吗？",
+          "time": "2026-11-09 13:05",
+          "senderId": "sungchan"
+        },
+        {
+          "id": "msg-sungchan-reply-1",
+          "title": "Sungchan",
+          "body": "吃过了，谢谢。晚上还不确定。",
+          "time": "2026-11-09 13:05",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-response-1",
+          "title": "Sungchan",
+          "body": "好吧。那我先不打扰你，想出来的话告诉我。",
+          "time": "2026-11-09 13:05",
+          "senderId": "sungchan",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-reply-2",
+          "title": "Sungchan",
+          "body": "还没决定吃什么。你有什么推荐？",
+          "time": "2026-11-09 13:05",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-response-2",
+          "title": "Sungchan",
+          "body": "我知道一家新开的店。位置发你，别又临时加班。",
+          "time": "2026-11-09 13:05",
+          "senderId": "sungchan",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-reply-3",
+          "title": "Sungchan",
+          "body": "你这是临时起意，还是专程来找我？",
+          "time": "2026-11-09 13:05",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-response-3",
+          "title": "Sungchan",
+          "body": "如果我说是专程呢？你会不会考虑一下。",
+          "time": "2026-11-09 13:05",
+          "senderId": "sungchan",
+          "hidden": true
+        },
+        {
+          "id": "msg-sungchan-last",
+          "title": "Sungchan",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "sungchan",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-wonbin",
+      "app": "instagram",
+      "title": "Wonbin",
+      "participants": [
+        "owner",
+        "wonbin"
+      ],
+      "messages": [
+        {
+          "id": "msg-wonbin-opening",
+          "title": "Wonbin",
+          "body": "新作品更新了。上次你说喜欢的那种光影，这次试着多留了一点。",
+          "time": "2026-11-09 15:42",
+          "senderId": "wonbin"
+        },
+        {
+          "id": "msg-wonbin-reply-1",
+          "title": "Wonbin",
+          "body": "看到了，光线很漂亮，像快要下雨的傍晚。",
+          "time": "2026-11-09 15:42",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-response-1",
+          "title": "Wonbin",
+          "body": "你总能注意到我想留下的部分。谢谢。",
+          "time": "2026-11-09 15:42",
+          "senderId": "wonbin",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-reply-2",
+          "title": "Wonbin",
+          "body": "这组比上一组更安静，但我更喜欢。",
+          "time": "2026-11-09 15:42",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-response-2",
+          "title": "Wonbin",
+          "body": "我拍的时候也觉得安静。可能因为那天一直在想一些事。",
+          "time": "2026-11-09 15:42",
+          "senderId": "wonbin",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-reply-3",
+          "title": "Wonbin",
+          "body": "你还记得我喜欢什么样的照片啊？",
+          "time": "2026-11-09 15:42",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-response-3",
+          "title": "Wonbin",
+          "body": "记得。你说过的话，我没有全部忘掉。",
+          "time": "2026-11-09 15:42",
+          "senderId": "wonbin",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-last",
+          "title": "Wonbin",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "wonbin",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-sohee",
+      "app": "kakao",
+      "title": "Sohee",
+      "participants": [
+        "owner",
+        "sohee"
+      ],
+      "messages": [
+        {
+          "id": "msg-sohee-opening",
+          "title": "Sohee",
+          "body": "下班了吗！今天电台放到一首很好听的歌，第一反应就是想发给你。",
+          "time": "2026-11-09 18:16",
+          "senderId": "sohee"
+        },
+        {
+          "id": "msg-sohee-reply-1",
+          "title": "Sohee",
+          "body": "刚下班。快发来，我需要一首下班专用歌。",
+          "time": "2026-11-09 18:16",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-response-1",
+          "title": "Sohee",
+          "body": "发啦！如果喜欢的话，明天节目里再放一次。",
+          "time": "2026-11-09 18:16",
+          "senderId": "sohee",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-reply-2",
+          "title": "Sohee",
+          "body": "今天有点累，正好需要新歌。",
+          "time": "2026-11-09 18:16",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-response-2",
+          "title": "Sohee",
+          "body": "那今天就把这首歌送给你。辛苦了，回家路上慢慢听。",
+          "time": "2026-11-09 18:16",
+          "senderId": "sohee",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-reply-3",
+          "title": "Sohee",
+          "body": "你每次听到歌都会想到我吗？",
+          "time": "2026-11-09 18:16",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-response-3",
+          "title": "Sohee",
+          "body": "也不是每次……但最近确实有点频繁。",
+          "time": "2026-11-09 18:16",
+          "senderId": "sohee",
+          "hidden": true
+        },
+        {
+          "id": "msg-sohee-last",
+          "title": "Sohee",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "sohee",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-anton",
+      "app": "kakao",
+      "title": "Anton",
+      "participants": [
+        "owner",
+        "anton"
+      ],
+      "messages": [
+        {
+          "id": "msg-anton-opening",
+          "title": "Anton",
+          "body": "刚路过那家咖啡店，今天又有你喜欢的甜点。突然想起你了。",
+          "time": "2026-11-09 20:31",
+          "senderId": "anton"
+        },
+        {
+          "id": "msg-anton-reply-1",
+          "title": "Anton",
+          "body": "你记性真好，谢谢你告诉我。",
+          "time": "2026-11-09 20:31",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-response-1",
+          "title": "Anton",
+          "body": "下次如果你也在，我可以帮你留一份。",
+          "time": "2026-11-09 20:31",
+          "senderId": "anton",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-reply-2",
+          "title": "Anton",
+          "body": "我正好很久没去了。下次一起？",
+          "time": "2026-11-09 20:31",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-response-2",
+          "title": "Anton",
+          "body": "好啊。我最近也想找时间去坐坐。",
+          "time": "2026-11-09 20:31",
+          "senderId": "anton",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-reply-3",
+          "title": "Anton",
+          "body": "你这样说，会让我觉得自己被惦记着。",
+          "time": "2026-11-09 20:31",
+          "senderId": "owner",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-response-3",
+          "title": "Anton",
+          "body": "那就好。我其实一直觉得，记得这些小事很重要。",
+          "time": "2026-11-09 20:31",
+          "senderId": "anton",
+          "hidden": true
+        },
+        {
+          "id": "msg-anton-last",
+          "title": "Anton",
+          "body": "",
+          "time": "2026-11-09 23:48",
+          "senderId": "anton",
+          "hidden": true
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "morning-note",
+        "title": "周一待办",
+        "body": "09:00 品牌周会\n10:30 核对本周拍摄需求\n14:00 与合作方确认物料\n18:00 下班后去超市\n\n记得带门禁卡。",
+        "time": "2026-11-09 08:12",
+        "sender": "OO",
+        "kind": "note"
+      },
+      {
+        "id": "abo-health-note",
+        "title": "周期与健康记录",
+        "body": "当前状态：稳定期\n预计周期：近期\n抑制剂库存：充足\n\n最近睡眠不太规律，记得按时吃饭、补水。今天没有明显不适，不需要额外处理。",
+        "time": "2026-11-09 21:30",
+        "sender": "健康记录",
+        "kind": "note"
+      },
+      {
+        "id": "late-night-note",
+        "title": "睡前备忘",
+        "body": "今天收到不少消息。要不要在睡前，再找一个人多聊一会儿？\n\n你可以选择继续和一位已经聊过的人说说话；也可以就这样结束今天。",
+        "time": "2026-11-09 23:40",
+        "sender": "OO",
+        "kind": "note"
+      },
+      {
+        "id": "bedtime-note",
+        "title": "23:48",
+        "body": "夜深了。手机屏幕暗下去之前，最后一条消息亮了起来。",
+        "time": "2026-11-09 23:48",
+        "sender": "OO",
+        "kind": "note"
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "calendar-brand-meeting",
+        "title": "品牌周会",
+        "body": "09:00｜本周传播计划与拍摄排期",
+        "time": "2026-11-09 08:12",
+        "sender": "日历",
+        "kind": "event"
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "calendar-campaign",
+        "title": "合作企划沟通",
+        "body": "14:00｜确认拍摄需求、交付时间与合作方名单",
+        "time": "2026-11-09 08:12",
+        "sender": "日历",
+        "kind": "event"
       }
     ],
     "reminders": [
       {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "reminder-afterwork",
+        "title": "下班后",
+        "body": "买牛奶、洗衣液；回家记得给绿植浇水。",
+        "time": "2026-11-09 08:12",
+        "sender": "提醒事项",
+        "kind": "text"
       }
     ],
     "health": [
       {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "health-stable",
+        "title": "健康概览",
+        "body": "今日状态：稳定期\n周期记录：已更新\n抑制剂：库存充足\n\n当前没有需要处理的急性症状。",
+        "time": "2026-11-09 21:30",
+        "sender": "健康",
+        "kind": "note"
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
+        "id": "wonbin-public-post",
+        "title": "wonbin｜new work",
+        "body": "late afternoon, after the rain.\n\n一组新拍摄作品。",
+        "time": "2026-11-09 15:30",
+        "sender": "wonbin",
+        "kind": "post",
         "meta": {
-          "activityType": "reply"
+          "account": "wonbin",
+          "postType": "photo"
         }
       },
       {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
+        "id": "wonbin-anon-post",
+        "title": "archive_00｜更新",
+        "body": "光落下来之前，天空有一小段很安静的时间。",
+        "time": "2026-11-09 15:42",
+        "sender": "archive_00",
+        "kind": "post",
         "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
+          "account": "archive_00",
+          "postType": "photo"
         }
       }
     ],
-    "appstore": [
+    "music": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "sohee-radio-track",
+        "title": "今晚电台分享",
+        "body": "Sohee 分享给你的下班歌单。",
+        "time": "2026-11-09 18:16",
+        "sender": "Sohee",
+        "kind": "text"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "last_interaction": "none"
+  },
+  "events": [
+    {
+      "id": "read-shotaro",
+      "label": "阅读 Shotaro 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-shotaro-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-shotaro-1",
+          "value": "Shotaro｜公事公办"
+        },
+        {
+          "type": "choice",
+          "key": "choose-shotaro-2",
+          "value": "Shotaro｜自然熟络"
+        },
+        {
+          "type": "choice",
+          "key": "choose-shotaro-3",
+          "value": "Shotaro｜带点暧昧"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-shotaro-1",
+      "label": "回复 Shotaro：公事公办",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-shotaro-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_shotaro",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_shotaro",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "shotaro"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-shotaro-2",
+      "label": "回复 Shotaro：自然熟络",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-shotaro-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_shotaro",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_shotaro",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "shotaro"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-shotaro-3",
+      "label": "回复 Shotaro：带点暧昧",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-shotaro-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_shotaro",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_shotaro",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "shotaro"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-shotaro",
+      "label": "继续和 Shotaro 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_shotaro",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-shotaro",
+          "value": "再聊一会儿｜Shotaro"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-shotaro",
+      "label": "今晚再多聊一会儿：Shotaro",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-shotaro",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_shotaro",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "shotaro"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-shotaro",
+      "label": "Shotaro 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "shotaro"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-shotaro"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-eunseok",
+      "label": "阅读 Eunseok 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-eunseok-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-eunseok-1",
+          "value": "Eunseok｜吐槽回去"
+        },
+        {
+          "type": "choice",
+          "key": "choose-eunseok-2",
+          "value": "Eunseok｜爽快答应"
+        },
+        {
+          "type": "choice",
+          "key": "choose-eunseok-3",
+          "value": "Eunseok｜故意逗他"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-eunseok-1",
+      "label": "回复 Eunseok：吐槽回去",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-eunseok-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_eunseok",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_eunseok",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "eunseok"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-eunseok-2",
+      "label": "回复 Eunseok：爽快答应",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-eunseok-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_eunseok",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_eunseok",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "eunseok"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-eunseok-3",
+      "label": "回复 Eunseok：故意逗他",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-eunseok-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_eunseok",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_eunseok",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "eunseok"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-eunseok",
+      "label": "继续和 Eunseok 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_eunseok",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-eunseok",
+          "value": "再聊一会儿｜Eunseok"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-eunseok",
+      "label": "今晚再多聊一会儿：Eunseok",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-eunseok",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_eunseok",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "eunseok"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-eunseok",
+      "label": "Eunseok 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "eunseok"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-eunseok"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-sungchan",
+      "label": "阅读 Sungchan 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sungchan-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-sungchan-1",
+          "value": "Sungchan｜保持距离"
+        },
+        {
+          "type": "choice",
+          "key": "choose-sungchan-2",
+          "value": "Sungchan｜接受邀约"
+        },
+        {
+          "type": "choice",
+          "key": "choose-sungchan-3",
+          "value": "Sungchan｜反客为主"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-sungchan-1",
+      "label": "回复 Sungchan：保持距离",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sungchan-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sungchan",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sungchan",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sungchan"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-sungchan-2",
+      "label": "回复 Sungchan：接受邀约",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sungchan-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sungchan",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sungchan",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sungchan"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-sungchan-3",
+      "label": "回复 Sungchan：反客为主",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sungchan-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sungchan",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sungchan",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sungchan"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-sungchan",
+      "label": "继续和 Sungchan 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_sungchan",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-sungchan",
+          "value": "再聊一会儿｜Sungchan"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-sungchan",
+      "label": "今晚再多聊一会儿：Sungchan",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-sungchan",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_sungchan",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sungchan"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-sungchan",
+      "label": "Sungchan 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "sungchan"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-sungchan"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-wonbin",
+      "label": "阅读 Wonbin 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-wonbin-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-wonbin-1",
+          "value": "Wonbin｜认真夸赞"
+        },
+        {
+          "type": "choice",
+          "key": "choose-wonbin-2",
+          "value": "Wonbin｜分享感受"
+        },
+        {
+          "type": "choice",
+          "key": "choose-wonbin-3",
+          "value": "Wonbin｜轻轻试探"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-wonbin-1",
+      "label": "回复 Wonbin：认真夸赞",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-wonbin-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_wonbin",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_wonbin",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "wonbin"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-wonbin-2",
+      "label": "回复 Wonbin：分享感受",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-wonbin-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_wonbin",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_wonbin",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "wonbin"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-wonbin-3",
+      "label": "回复 Wonbin：轻轻试探",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-wonbin-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_wonbin",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_wonbin",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "wonbin"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-wonbin",
+      "label": "继续和 Wonbin 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_wonbin",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-wonbin",
+          "value": "再聊一会儿｜Wonbin"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-wonbin",
+      "label": "今晚再多聊一会儿：Wonbin",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-wonbin",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_wonbin",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "wonbin"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-wonbin",
+      "label": "Wonbin 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "wonbin"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-wonbin"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-sohee",
+      "label": "阅读 Sohee 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sohee-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-sohee-1",
+          "value": "Sohee｜日常回应"
+        },
+        {
+          "type": "choice",
+          "key": "choose-sohee-2",
+          "value": "Sohee｜分享心情"
+        },
+        {
+          "type": "choice",
+          "key": "choose-sohee-3",
+          "value": "Sohee｜亲近一点"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-sohee-1",
+      "label": "回复 Sohee：日常回应",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sohee-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sohee",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sohee",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sohee"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-sohee-2",
+      "label": "回复 Sohee：分享心情",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sohee-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sohee",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sohee",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sohee"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-sohee-3",
+      "label": "回复 Sohee：亲近一点",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-sohee-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_sohee",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_sohee",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sohee"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-sohee",
+      "label": "继续和 Sohee 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_sohee",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-sohee",
+          "value": "再聊一会儿｜Sohee"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-sohee",
+      "label": "今晚再多聊一会儿：Sohee",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-sohee",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_sohee",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "sohee"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-sohee",
+      "label": "Sohee 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "sohee"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-sohee"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-anton",
+      "label": "阅读 Anton 的消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-anton-opening",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-anton-1",
+          "value": "Anton｜礼貌感谢"
+        },
+        {
+          "type": "choice",
+          "key": "choose-anton-2",
+          "value": "Anton｜顺势邀约"
+        },
+        {
+          "type": "choice",
+          "key": "choose-anton-3",
+          "value": "Anton｜温柔回应"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-anton-1",
+      "label": "回复 Anton：礼貌感谢",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-anton-1",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_anton",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "interactions_anton",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-reply-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-response-1",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-anton-2",
+      "label": "回复 Anton：顺势邀约",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-anton-2",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_anton",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "interactions_anton",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-reply-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-response-2",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-anton-3",
+      "label": "回复 Anton：温柔回应",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-anton-3",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "rel_anton",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "interactions_anton",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-reply-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-response-3",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "late-choice-anton",
+      "label": "继续和 Anton 聊一会儿",
+      "type": "event",
+      "event": "read",
+      "target": "late-night-note",
+      "conditions": [
+        {
+          "key": "interactions_anton",
+          "op": "eq",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "second-anton",
+          "value": "再聊一会儿｜Anton"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "second-anton",
+      "label": "今晚再多聊一会儿：Anton",
+      "type": "choice",
+      "event": "choose",
+      "target": "second-anton",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "interactions_anton",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "last_interaction",
+          "value": "anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-anton",
+      "label": "Anton 的晚安",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "anton"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-anton"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-last",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ending-quiet",
+      "label": "安静的夜晚",
+      "type": "ending",
+      "event": "read",
+      "target": "bedtime-note",
+      "conditions": [
+        {
+          "key": "last_interaction",
+          "op": "eq",
+          "value": "none"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "chapter-01-quiet"
+        }
+      ],
+      "next": [],
+      "once": true
+    }
+  ],
+  "tests": [
+    {
+      "name": "第一章｜Shotaro 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-shotaro-opening"
+        },
+        {
+          "choose": "choose-shotaro-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-shotaro"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-shotaro",
+      "expectUnlocked": [
+        "msg-shotaro-last"
+      ]
+    },
+    {
+      "name": "第一章｜Eunseok 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-eunseok-opening"
+        },
+        {
+          "choose": "choose-eunseok-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-eunseok"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-eunseok",
+      "expectUnlocked": [
+        "msg-eunseok-last"
+      ]
+    },
+    {
+      "name": "第一章｜Sungchan 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-sungchan-opening"
+        },
+        {
+          "choose": "choose-sungchan-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-sungchan"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-sungchan",
+      "expectUnlocked": [
+        "msg-sungchan-last"
+      ]
+    },
+    {
+      "name": "第一章｜Wonbin 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-wonbin"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "msg-wonbin-last"
+      ]
+    },
+    {
+      "name": "第一章｜Sohee 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-sohee-opening"
+        },
+        {
+          "choose": "choose-sohee-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-sohee"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-sohee",
+      "expectUnlocked": [
+        "msg-sohee-last"
+      ]
+    },
+    {
+      "name": "第一章｜Anton 成为最后一条消息",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-anton-opening"
+        },
+        {
+          "choose": "choose-anton-2"
+        },
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "choose": "second-anton"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-anton",
+      "expectUnlocked": [
+        "msg-anton-last"
+      ]
+    },
+    {
+      "name": "第一章｜无人互动的默认结尾",
+      "steps": [
+        {
+          "event": "read",
+          "target": "late-night-note"
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        }
+      ],
+      "ending": "chapter-01-quiet",
+      "expectUnlocked": []
+    }
+  ]
 }
