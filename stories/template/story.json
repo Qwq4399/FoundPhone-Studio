@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -760,6 +760,14 @@
         "title": "市立综合医院｜分化评估门诊",
         "body": "10:00｜内分泌与信息素门诊\n携带近期周期记录，完成分化评估。",
         "time": "2026-11-05 09:30",
+        "sender": "日历",
+        "kind": "event"
+      },
+      {
+        "id": "calendar-differentiation-followup",
+        "title": "Omega 周期复查",
+        "body": "10:30｜市立综合医院\n复查信息素水平及周期稳定情况。记得携带这两周的身体记录。",
+        "time": "2026-11-19 10:30",
         "sender": "日历",
         "kind": "event"
       }
