@@ -1992,14 +1992,16 @@
           "target": "msg-shotaro-opening"
         },
         {
-          "choose": "choose-shotaro-2"
+          "choose": "choose-shotaro-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-shotaro"
+          "choose": "second-shotaro",
+          "target": ""
         },
         {
           "event": "read",
@@ -2019,14 +2021,16 @@
           "target": "msg-eunseok-opening"
         },
         {
-          "choose": "choose-eunseok-2"
+          "choose": "choose-eunseok-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-eunseok"
+          "choose": "second-eunseok",
+          "target": ""
         },
         {
           "event": "read",
@@ -2046,14 +2050,16 @@
           "target": "msg-sungchan-opening"
         },
         {
-          "choose": "choose-sungchan-2"
+          "choose": "choose-sungchan-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-sungchan"
+          "choose": "second-sungchan",
+          "target": ""
         },
         {
           "event": "read",
@@ -2073,14 +2079,16 @@
           "target": "msg-wonbin-opening"
         },
         {
-          "choose": "choose-wonbin-2"
+          "choose": "choose-wonbin-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-wonbin"
+          "choose": "second-wonbin",
+          "target": ""
         },
         {
           "event": "read",
@@ -2100,14 +2108,16 @@
           "target": "msg-sohee-opening"
         },
         {
-          "choose": "choose-sohee-2"
+          "choose": "choose-sohee-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-sohee"
+          "choose": "second-sohee",
+          "target": ""
         },
         {
           "event": "read",
@@ -2127,14 +2137,16 @@
           "target": "msg-anton-opening"
         },
         {
-          "choose": "choose-anton-2"
+          "choose": "choose-anton-2",
+          "target": ""
         },
         {
           "event": "read",
           "target": "late-night-note"
         },
         {
-          "choose": "second-anton"
+          "choose": "second-anton",
+          "target": ""
         },
         {
           "event": "read",
