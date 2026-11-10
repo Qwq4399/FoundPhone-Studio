@@ -3,11 +3,11 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
-    "time": "09:41",
+    "time": "21:41",
     "battery": 87,
     "network": "5G",
     "wallpaper": "sage",
@@ -925,6 +925,20 @@
     "exchange_partner": "none"
   },
   "events": [
+    {
+      "id": "chapter1-phone-opening",
+      "label": "第一章开场｜手机解锁后的提醒",
+      "type": "start",
+      "event": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "chapter1-opening",
+          "value": "今天的消息都已送达。医院的检查报告和处方已保存到「文件」，复查日期在「日历」里。"
+        }
+      ],
+      "next": []
+    },
     {
       "id": "read-shotaro",
       "label": "阅读 Shotaro 的消息",
