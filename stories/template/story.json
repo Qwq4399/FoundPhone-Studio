@@ -3,7 +3,7 @@
   "id": "abo-city-phone",
   "title": "After Scent｜新消息",
   "description": "架空都市 ABO AU。六位 Alpha 与一位普通 Omega 上班族，在同一座城市的交错生活里，从日常消息开始靠近。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "OO",
     "date": "2026-11-09",
@@ -205,6 +205,14 @@
           "time": "2026-11-09 23:48",
           "senderId": "shotaro",
           "hidden": true
+        },
+        {
+          "id": "msg-shotaro-exchange",
+          "title": "Shotaro",
+          "body": "我可以陪你去确认一下身体状况。至于信息素交换，只有在你真的愿意、也觉得安心的时候才考虑。你不用急着回答。",
+          "time": "2026-11-10 08:24",
+          "senderId": "shotaro",
+          "hidden": true
         }
       ]
     },
@@ -277,6 +285,14 @@
           "title": "Eunseok",
           "body": "还在线？算了，今天先放过你。明天再开一局。……晚安。",
           "time": "2026-11-09 23:48",
+          "senderId": "eunseok",
+          "hidden": true
+        },
+        {
+          "id": "msg-eunseok-exchange",
+          "title": "Eunseok",
+          "body": "我刚查了下相关资料……不过网上说的也不一定准。你先别硬撑。如果你想让我陪你，我可以过去。交换不交换都听你的。",
+          "time": "2026-11-10 08:24",
           "senderId": "eunseok",
           "hidden": true
         }
@@ -353,6 +369,14 @@
           "time": "2026-11-09 23:48",
           "senderId": "sungchan",
           "hidden": true
+        },
+        {
+          "id": "msg-sungchan-exchange",
+          "title": "Sungchan",
+          "body": "你现在在哪？我可以过去。别把这件事当成欠我的人情——你愿意我才帮，不愿意就当我只是来陪你吃早餐。",
+          "time": "2026-11-10 08:24",
+          "senderId": "sungchan",
+          "hidden": true
         }
       ]
     },
@@ -425,6 +449,14 @@
           "title": "Wonbin",
           "body": "刚刚又看了一遍你之前说的话。有时候觉得，你还挺有意思的。晚安。",
           "time": "2026-11-09 23:48",
+          "senderId": "wonbin",
+          "hidden": true
+        },
+        {
+          "id": "msg-wonbin-exchange",
+          "title": "Wonbin",
+          "body": "不用勉强自己。你可以先告诉我现在感觉怎么样。如果你希望我帮忙，我会认真确认你的意愿，也会尊重你随时改变主意。",
+          "time": "2026-11-10 08:24",
           "senderId": "wonbin",
           "hidden": true
         }
@@ -501,6 +533,14 @@
           "time": "2026-11-09 23:48",
           "senderId": "sohee",
           "hidden": true
+        },
+        {
+          "id": "msg-sohee-exchange",
+          "title": "Sohee",
+          "body": "我先不吵你啦。你慢慢说，我在听。如果需要有人陪着，或者想试试信息素安抚，都可以，但一定要按你舒服的方式来。",
+          "time": "2026-11-10 08:24",
+          "senderId": "sohee",
+          "hidden": true
         }
       ]
     },
@@ -575,6 +615,14 @@
           "time": "2026-11-09 23:48",
           "senderId": "anton",
           "hidden": true
+        },
+        {
+          "id": "msg-anton-exchange",
+          "title": "Anton",
+          "body": "我可以陪你去做一次检查。若你考虑信息素交换，我们也可以先谈清楚边界；你不需要为了缓解症状而答应任何让自己不自在的事。",
+          "time": "2026-11-10 08:24",
+          "senderId": "anton",
+          "hidden": true
         }
       ]
     }
@@ -612,6 +660,24 @@
         "time": "2026-11-09 23:48",
         "sender": "OO",
         "kind": "note"
+      },
+      {
+        "id": "chapter2-exchange-partner-note",
+        "title": "想找谁帮忙？",
+        "body": "你打开联系人列表，想了想，还是决定只联系一个真正让自己安心的人。\n\n交换信息素需要双方明确同意。你可以选择一位已经建立起一定熟悉感的人；对方也会先确认你的意愿。任何时候都可以停下。",
+        "time": "2026-11-10 08:20",
+        "sender": "OO",
+        "kind": "note",
+        "hidden": true
+      },
+      {
+        "id": "chapter2-wrap-note",
+        "title": "08:30｜暂时平复",
+        "body": "波动暂时平复了。你把手机放在桌上，窗外的城市已经完全醒来。\n\n只是健康记录里多出了一段无法解释的归档数据。它出现得太巧，像是有人提前知道你的周期会发生变化。",
+        "time": "2026-11-10 08:30",
+        "sender": "OO",
+        "kind": "note",
+        "hidden": true
       }
     ],
     "calendar": [
@@ -650,6 +716,24 @@
         "time": "2026-11-09 21:30",
         "sender": "健康",
         "kind": "note"
+      },
+      {
+        "id": "health-fluctuation-record",
+        "title": "异常波动提醒",
+        "body": "监测时间：08:16\n当前周期：稳定期\n\n今早检测到一次短时信息素波动。数值尚未达到发情临界范围，但与常规周期曲线存在偏差。\n\n建议：先确认身体感受，再选择休息观察、按需使用抑制剂，或在双方自愿的前提下向信任的人寻求信息素安抚。\n\n备注：本次记录已自动归档。若再次出现类似波动，请留意发生时间与环境。",
+        "time": "2026-11-10 08:16",
+        "sender": "健康监测",
+        "kind": "note",
+        "hidden": true
+      },
+      {
+        "id": "health-archived-fragment",
+        "title": "自动归档片段",
+        "body": "归档时间：08:17\n记录来源：未识别的外部同步\n\n这段数据不属于本机常规周期记录。系统只保留了一行摘要：\n「波动出现前，曾接收到一次短促的同频信息素信号。」\n\n来源字段为空。",
+        "time": "2026-11-10 08:17",
+        "sender": "健康记录",
+        "kind": "note",
+        "hidden": true
       }
     ],
     "instagram": [
@@ -690,7 +774,12 @@
     ]
   },
   "variables": {
-    "last_interaction": "none"
+    "last_interaction": "none",
+    "heat_progress": 18,
+    "suppressant_uses": 0,
+    "chapter2_completed": false,
+    "chapter2_path": "none",
+    "exchange_partner": "none"
   },
   "events": [
     {
@@ -890,6 +979,21 @@
         }
       ],
       "actions": [
+        {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
         {
           "type": "ending",
           "key": "ending",
@@ -1102,6 +1206,21 @@
       ],
       "actions": [
         {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
+        {
           "type": "ending",
           "key": "ending",
           "value": "chapter-01-eunseok"
@@ -1312,6 +1431,21 @@
         }
       ],
       "actions": [
+        {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
         {
           "type": "ending",
           "key": "ending",
@@ -1524,6 +1658,21 @@
       ],
       "actions": [
         {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
+        {
           "type": "ending",
           "key": "ending",
           "value": "chapter-01-wonbin"
@@ -1734,6 +1883,21 @@
         }
       ],
       "actions": [
+        {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
         {
           "type": "ending",
           "key": "ending",
@@ -1946,6 +2110,21 @@
       ],
       "actions": [
         {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
+        {
           "type": "ending",
           "key": "ending",
           "value": "chapter-01-anton"
@@ -1974,9 +2153,652 @@
       ],
       "actions": [
         {
+          "type": "date",
+          "key": "date",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "time",
+          "value": "08:16"
+        },
+        {
+          "type": "unlock",
+          "key": "health-fluctuation-record",
+          "value": true
+        },
+        {
           "type": "ending",
           "key": "ending",
           "value": "chapter-01-quiet"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-ch2-fluctuation",
+      "label": "查看异常波动记录",
+      "type": "event",
+      "event": "read",
+      "target": "health-fluctuation-record",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "health",
+          "value": "健康监测：检测到一次短时信息素波动"
+        },
+        {
+          "type": "choice",
+          "key": "choose-ch2-suppressant",
+          "value": "先使用抑制剂｜快速稳定状态"
+        },
+        {
+          "type": "choice",
+          "key": "choose-ch2-rest",
+          "value": "先休息观察｜暂时不使用药物"
+        },
+        {
+          "type": "choice",
+          "key": "choose-ch2-exchange",
+          "value": "联系信任的人｜询问信息素安抚"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-ch2-suppressant",
+      "label": "第二章：使用抑制剂",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-ch2-suppressant",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 8
+        },
+        {
+          "type": "variable",
+          "key": "suppressant_uses",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-ch2-rest",
+      "label": "第二章：休息观察",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-ch2-rest",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-ch2-exchange",
+      "label": "第二章：联系信任的人",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-ch2-exchange",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter2_path",
+          "value": "exchange"
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-exchange-partner-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-ch2-exchange-partners",
+      "label": "查看可以联系的人",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-rest",
+          "value": "想了想，还是先休息"
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "choose-exchange-rest",
+      "label": "第二章：暂缓交换",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-rest",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 24
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "read-ch2-wrap",
+      "label": "阅读第二章记录",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-wrap-note",
+      "actions": [
+        {
+          "type": "clue",
+          "key": "archived-signal",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "health-archived-fragment",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-shotaro",
+      "label": "确认 shotaro 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_shotaro",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_shotaro",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-shotaro",
+          "value": "联系 Shotaro"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-shotaro",
+      "label": "与 shotaro 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-shotaro",
+      "conditions": [
+        {
+          "key": "interactions_shotaro",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_shotaro",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "shotaro"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-shotaro-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-eunseok",
+      "label": "确认 eunseok 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_eunseok",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_eunseok",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-eunseok",
+          "value": "联系 Eunseok"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-eunseok",
+      "label": "与 eunseok 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-eunseok",
+      "conditions": [
+        {
+          "key": "interactions_eunseok",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_eunseok",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "eunseok"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-eunseok-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-sungchan",
+      "label": "确认 sungchan 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_sungchan",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_sungchan",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-sungchan",
+          "value": "联系 Sungchan"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-sungchan",
+      "label": "与 sungchan 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-sungchan",
+      "conditions": [
+        {
+          "key": "interactions_sungchan",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_sungchan",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "sungchan"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sungchan-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-wonbin",
+      "label": "确认 wonbin 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_wonbin",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_wonbin",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-wonbin",
+          "value": "联系 Wonbin"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-wonbin",
+      "label": "与 wonbin 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-wonbin",
+      "conditions": [
+        {
+          "key": "interactions_wonbin",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_wonbin",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "wonbin"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-wonbin-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-sohee",
+      "label": "确认 sohee 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_sohee",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_sohee",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-sohee",
+          "value": "联系 Sohee"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-sohee",
+      "label": "与 sohee 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-sohee",
+      "conditions": [
+        {
+          "key": "interactions_sohee",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_sohee",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "sohee"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sohee-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
+        }
+      ],
+      "next": [],
+      "once": true
+    },
+    {
+      "id": "ch2-offer-anton",
+      "label": "确认 anton 是否适合交换",
+      "type": "event",
+      "event": "read",
+      "target": "chapter2-exchange-partner-note",
+      "conditions": [
+        {
+          "key": "interactions_anton",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_anton",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "choice",
+          "key": "choose-exchange-anton",
+          "value": "联系 Anton"
+        }
+      ],
+      "next": [],
+      "once": false
+    },
+    {
+      "id": "choose-exchange-anton",
+      "label": "与 anton 自愿交换信息素",
+      "type": "choice",
+      "event": "choose",
+      "target": "choose-exchange-anton",
+      "conditions": [
+        {
+          "key": "interactions_anton",
+          "op": "eq",
+          "value": 1
+        },
+        {
+          "key": "rel_anton",
+          "op": "gt",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "heat_progress",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "exchange_partner",
+          "value": "anton"
+        },
+        {
+          "type": "variable",
+          "key": "chapter2_completed",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-anton-exchange",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "chapter2-wrap-note",
+          "value": true
         }
       ],
       "next": [],
@@ -2252,6 +3074,133 @@
         "msg-anton-reply-2",
         "msg-anton-response-2",
         "msg-wonbin-last"
+      ]
+    },
+    {
+      "name": "第二章｜使用抑制剂后暂时稳定",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-suppressant",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "health-fluctuation-record",
+        "chapter2-wrap-note",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜休息观察后暂时平复",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-rest",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "health-fluctuation-record",
+        "chapter2-wrap-note",
+        "health-archived-fragment"
+      ]
+    },
+    {
+      "name": "第二章｜与信任的人自愿交换信息素",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-wonbin-opening"
+        },
+        {
+          "choose": "choose-wonbin-2",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "bedtime-note"
+        },
+        {
+          "event": "read",
+          "target": "health-fluctuation-record"
+        },
+        {
+          "choose": "choose-ch2-exchange",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-exchange-partner-note"
+        },
+        {
+          "choose": "choose-exchange-wonbin",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "chapter2-wrap-note"
+        },
+        {
+          "event": "read",
+          "target": "health-archived-fragment"
+        }
+      ],
+      "ending": "chapter-01-wonbin",
+      "expectUnlocked": [
+        "health-fluctuation-record",
+        "chapter2-exchange-partner-note",
+        "msg-wonbin-exchange",
+        "chapter2-wrap-note",
+        "health-archived-fragment"
       ]
     }
   ]
